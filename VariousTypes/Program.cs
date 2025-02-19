@@ -22,6 +22,9 @@ namespace VariousTypes
             float k =3.1416f;
             decimal a = 3.1417m;
 
+            bool con_true = true;
+            bool con_false = false;
+
             Console.WriteLine(num);
             Console.WriteLine(z);
             Console.WriteLine(y);
@@ -31,7 +34,9 @@ namespace VariousTypes
             Console.WriteLine(x);
             Console.WriteLine(k);
             Console.WriteLine(a);
-
+            Console.WriteLine(con_true);
+            Console.WriteLine(con_false);
+ 
 
 
         }
