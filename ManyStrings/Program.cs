@@ -17,6 +17,18 @@ namespace ManyStrings
             Console.WriteLine(str_1);
             Console.WriteLine(str_2);
             Console.WriteLine(str_3);
+
+            string conc_1 = "olá" + " mundo!";
+            string conc_2 = "abc" + " as easy as " + "123";
+            string inter_1 = $"valor de x é {9}";
+            string inter_2 = $"{6} a dividir {2} é {6 / 2}";
+
+            Console.WriteLine(conc_1);
+            Console.WriteLine(conc_2);
+            Console.WriteLine(inter_1);
+            Console.WriteLine(inter_2);
+            
+
         }
     }
 }
