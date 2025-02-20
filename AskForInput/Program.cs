@@ -14,6 +14,11 @@ namespace AskForInput
 
             int convertido_1 = int.Parse(input_1);
 
+            Console.WriteLine("insira um número real");
+            string input_2 = Console.ReadLine();
+
+            float convertido_2 = float.Parse(input_2);
+
             
 
         }
