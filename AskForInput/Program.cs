@@ -19,7 +19,7 @@ namespace AskForInput
 
             float convertido_2 = float.Parse(input_2);
 
-            
+            Console.WriteLine($"A soma dos dois números fornecidos é {convertido_1 + convertido_2}");
 
         }
     }
