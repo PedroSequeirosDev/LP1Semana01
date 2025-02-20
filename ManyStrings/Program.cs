@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace ManyStrings
@@ -7,6 +8,9 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("Hello LP1!");
 
@@ -27,6 +31,16 @@ namespace ManyStrings
             Console.WriteLine(conc_2);
             Console.WriteLine(inter_1);
             Console.WriteLine(inter_2);
+
+            string real = $"xx real with 2 decimal = {xx:f2}";
+            string perc = $"xx in percent with 1 decimal = {xx:p1}";
+            string hexa = $"ii in hecadecimal = {ii:x}";
+            string moeda = $"ii in moeda = {ii:c}";
+            
+            Console.WriteLine(real);
+            Console.WriteLine(perc);
+            Console.WriteLine(hexa);
+            Console.WriteLine(moeda);
             
 
         }
