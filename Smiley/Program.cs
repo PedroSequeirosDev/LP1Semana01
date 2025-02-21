@@ -16,9 +16,9 @@ namespace Smiley
             string input_1 = Console.ReadLine();
 
            int converted1 = System.Int32.Parse(input_1, NumberStyles.
-           AllowHexSpecifier);
+           HexNumber);
 
-           int charvalue = Convert.ToChar(converted1);
+           char charvalue = Convert.ToChar(converted1);
            
 
            Console.WriteLine("carácter Unicode : " + charvalue);
